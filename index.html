@@ -1,534 +1,678 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!--CSS Styles -->
     <link rel="stylesheet" href="assets/css/styles.css" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <!-- Favicons -->
-    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/icons/apple-touch-icon.png" />
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon-32x32.png" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.7.2/font/bootstrap-icons.min.css" integrity="sha512-1fPmaHba3v4A7PaUsComSM4TBsrrRGs+/fv0vrzafQ+Rw+siILTiJa0NtFfvGeyY5E182SDTaF5PqP+XOHgJag==" crossorigin="anonymous"
-        referrerpolicy="no-referrer" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/icons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/icons/favicon-32x32.png"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.7.2/font/bootstrap-icons.min.css"
+      integrity="sha512-1fPmaHba3v4A7PaUsComSM4TBsrrRGs+/fv0vrzafQ+Rw+siILTiJa0NtFfvGeyY5E182SDTaF5PqP+XOHgJag=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <!-- Animate CSS CDN -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
     <title>Ige Ajibola | Web Developer</title>
-</head>
+  </head>
 
-<body>
-
+  <body>
     <section class="hero">
-        <!-- Navbar -->
-        <nav class="nav-bar">
-            <h1><img src="destiny.svg" alt=""></h1>
-            <ul class="navigation">
-                <li><a href="#about" class="nav-link">About</a></li>
-                <li><a href="#skills" class="nav-link">Skills</a></li>
-                <li><a href="#projects" class="nav-link">Projects</a></li>
-                <li><a href="#contact" class="nav-link">Contact</a></li>
-            </ul>
-            <button class="burger-menu" id="burger-menu">
-        <ion-icon class="bars" name="menu-outline"></ion-icon>
-        <!-- <ion-icon class="times" name="close-outline"></ion-icon> -->
+      <!-- Navbar -->
+      <nav class="nav-bar">
+        <h1><img src="destiny.svg" alt="" /></h1>
+        <ul class="navigation">
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <button class="burger-menu" id="burger-menu">
+          <ion-icon class="bars" name="menu-outline"></ion-icon>
+          <!-- <ion-icon class="times" name="close-outline"></ion-icon> -->
         </button>
-        </nav>
+      </nav>
 
+      <!-- <section class="hero-d d-flex h-100 justify-content-center align-items-center"> -->
 
-        <!-- <section class="hero-d d-flex h-100 justify-content-center align-items-center"> -->
+      <div class="hero-desc text-center">
+        <h2
+          class="display-4"
+          data-aos="fade-left"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+        >
+          Hello,
+        </h2>
+        <h2
+          class="display-4"
+          data-aos="fade-right"
+          data-aos-delay="50"
+          data-aos-duration="2000"
+        >
+          I'am <span class="name">Ige Ajibola</span>
+        </h2>
+        <h2
+          class="display-3 dispaly-sm-1"
+          data-aos="fade-left"
+          data-aos-delay="50"
+          data-aos-duration="3000"
+        >
+          Web <span class="sha">developer</span>
+        </h2>
+      </div>
 
-        <div class="hero-desc text-center">
-            <h2 class="display-4"
-             data-aos="fade-left"
-            data-aos-delay="50"
-           data-aos-duration="1000">Hello,</h2>
-            <h2 class="display-4"
-                 data-aos="fade-right"
-                 data-aos-delay="50"
-                data-aos-duration="2000"
-            >I'am <span class="name">Ige Ajibola</span></h2>
-            <h2 class="display-3 dispaly-sm-1"
-            data-aos="fade-left"
-                 data-aos-delay="50"
-                data-aos-duration="3000"
-            >Web <span class="sha">developer</span> </h2>
+      <div class="action">
+        <a class="btn btn-hero" href="#contact"
+          ><i class="bx bxs-contact"></i>Contact me</a
+        >
+        <a class="btn btn-hero" target="blank" href="IGE AJIBOLA-.PDF"
+          ><i class="bi bi-binoculars-fill"></i> View cv</a
+        >
+      </div>
+      <!-- </section> -->
 
-        </div>
-
-        <div class="action">
-            <a class="btn btn-hero" href="#contact"><i class='bx bxs-contact'></i>Contact me</a>
-            <a class="btn btn-hero" target="blank" href="IGE AJIBOLA-.PDF"><i class="bi bi-binoculars-fill"></i> View cv</a>
-        </div>
-        <!-- </section> -->
-
-
-
-
-
-        <img src="wave.svg" class="svgs" alt="">
-        <!-- <svg id="wave" class="svgs" style="transform:rotate(0deg);/ transition: 0.3s" viewBox="0 0 1440 490" version="1.1" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0"><stop stop-color="rgba(71, 86, 223, 1)" offset="0%"></stop><stop stop-color="rgba(255, 255, 255, 1)" offset="100%"></stop></linearGradient></defs><path style="transform:translate(0, 0px); opacity:1" fill="url(#sw-gradient-0)" d="M0,245L24,236.8C48,229,96,212,144,204.2C192,196,240,196,288,212.3C336,229,384,261,432,261.3C480,261,528,229,576,236.8C624,245,672,294,720,285.8C768,278,816,212,864,163.3C912,114,960,82,1008,89.8C1056,98,1104,147,1152,171.5C1200,196,1248,196,1296,228.7C1344,261,1392,327,1440,318.5C1488,310,1536,229,1584,212.3C1632,196,1680,245,1728,253.2C1776,261,1824,229,1872,179.7C1920,131,1968,65,2016,106.2C2064,147,2112,294,2160,343C2208,392,2256,343,2304,285.8C2352,229,2400,163,2448,179.7C2496,196,2544,294,2592,326.7C2640,359,2688,327,2736,326.7C2784,327,2832,359,2880,375.7C2928,392,2976,392,3024,367.5C3072,343,3120,294,3168,277.7C3216,261,3264,278,3312,269.5C3360,261,3408,229,3432,212.3L3456,196L3456,490L3432,490C3408,490,3360,490,3312,490C3264,490,3216,490,3168,490C3120,490,3072,490,3024,490C2976,490,2928,490,2880,490C2832,490,2784,490,2736,490C2688,490,2640,490,2592,490C2544,490,2496,490,2448,490C2400,490,2352,490,2304,490C2256,490,2208,490,2160,490C2112,490,2064,490,2016,490C1968,490,1920,490,1872,490C1824,490,1776,490,1728,490C1680,490,1632,490,1584,490C1536,490,1488,490,1440,490C1392,490,1344,490,1296,490C1248,490,1200,490,1152,490C1104,490,1056,490,1008,490C960,490,912,490,864,490C816,490,768,490,720,490C672,490,624,490,576,490C528,490,480,490,432,490C384,490,336,490,288,490C240,490,192,490,144,490C96,490,48,490,24,490L0,490Z"></path><defs><linearGradient id="sw-gradient-1" x1="0" x2="0" y1="1" y2="0"><stop stop-color="rgba(71, 86, 223, 1)" offset="0%"></stop><stop stop-color="rgba(255, 255, 255, 1)" offset="100%"></stop></linearGradient></defs><path style="transform:translate(0, 50px); opacity:0.9" fill="url(#sw-gradient-1)" d="M0,392L24,392C48,392,96,392,144,351.2C192,310,240,229,288,196C336,163,384,180,432,228.7C480,278,528,359,576,392C624,425,672,408,720,343C768,278,816,163,864,155.2C912,147,960,245,1008,253.2C1056,261,1104,180,1152,171.5C1200,163,1248,229,1296,245C1344,261,1392,229,1440,220.5C1488,212,1536,229,1584,261.3C1632,294,1680,343,1728,318.5C1776,294,1824,196,1872,196C1920,196,1968,294,2016,326.7C2064,359,2112,327,2160,294C2208,261,2256,229,2304,220.5C2352,212,2400,229,2448,245C2496,261,2544,278,2592,294C2640,310,2688,327,2736,318.5C2784,310,2832,278,2880,253.2C2928,229,2976,212,3024,196C3072,180,3120,163,3168,171.5C3216,180,3264,212,3312,261.3C3360,310,3408,376,3432,408.3L3456,441L3456,490L3432,490C3408,490,3360,490,3312,490C3264,490,3216,490,3168,490C3120,490,3072,490,3024,490C2976,490,2928,490,2880,490C2832,490,2784,490,2736,490C2688,490,2640,490,2592,490C2544,490,2496,490,2448,490C2400,490,2352,490,2304,490C2256,490,2208,490,2160,490C2112,490,2064,490,2016,490C1968,490,1920,490,1872,490C1824,490,1776,490,1728,490C1680,490,1632,490,1584,490C1536,490,1488,490,1440,490C1392,490,1344,490,1296,490C1248,490,1200,490,1152,490C1104,490,1056,490,1008,490C960,490,912,490,864,490C816,490,768,490,720,490C672,490,624,490,576,490C528,490,480,490,432,490C384,490,336,490,288,490C240,490,192,490,144,490C96,490,48,490,24,490L0,490Z"></path><defs><linearGradient id="sw-gradient-2" x1="0" x2="0" y1="1" y2="0"><stop stop-color="rgba(71, 86, 223, 1)" offset="0%"></stop><stop stop-color="rgba(255, 255, 255, 1)" offset="100%"></stop></linearGradient></defs><path style="transform:translate(0, 100px); opacity:0.8" fill="url(#sw-gradient-2)" d="M0,196L24,212.3C48,229,96,261,144,302.2C192,343,240,392,288,416.5C336,441,384,441,432,441C480,441,528,441,576,416.5C624,392,672,343,720,302.2C768,261,816,229,864,245C912,261,960,327,1008,294C1056,261,1104,131,1152,114.3C1200,98,1248,196,1296,212.3C1344,229,1392,163,1440,114.3C1488,65,1536,33,1584,32.7C1632,33,1680,65,1728,138.8C1776,212,1824,327,1872,334.8C1920,343,1968,245,2016,179.7C2064,114,2112,82,2160,81.7C2208,82,2256,114,2304,147C2352,180,2400,212,2448,228.7C2496,245,2544,245,2592,277.7C2640,310,2688,376,2736,359.3C2784,343,2832,245,2880,204.2C2928,163,2976,180,3024,196C3072,212,3120,229,3168,204.2C3216,180,3264,114,3312,89.8C3360,65,3408,82,3432,89.8L3456,98L3456,490L3432,490C3408,490,3360,490,3312,490C3264,490,3216,490,3168,490C3120,490,3072,490,3024,490C2976,490,2928,490,2880,490C2832,490,2784,490,2736,490C2688,490,2640,490,2592,490C2544,490,2496,490,2448,490C2400,490,2352,490,2304,490C2256,490,2208,490,2160,490C2112,490,2064,490,2016,490C1968,490,1920,490,1872,490C1824,490,1776,490,1728,490C1680,490,1632,490,1584,490C1536,490,1488,490,1440,490C1392,490,1344,490,1296,490C1248,490,1200,490,1152,490C1104,490,1056,490,1008,490C960,490,912,490,864,490C816,490,768,490,720,490C672,490,624,490,576,490C528,490,480,490,432,490C384,490,336,490,288,490C240,490,192,490,144,490C96,490,48,490,24,490L0,490Z"></path></svg> -->
+      <img src="wave.svg" class="svgs" alt="" />
+      <!-- <svg id="wave" class="svgs" style="transform:rotate(0deg);/ transition: 0.3s" viewBox="0 0 1440 490" version="1.1" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0"><stop stop-color="rgba(71, 86, 223, 1)" offset="0%"></stop><stop stop-color="rgba(255, 255, 255, 1)" offset="100%"></stop></linearGradient></defs><path style="transform:translate(0, 0px); opacity:1" fill="url(#sw-gradient-0)" d="M0,245L24,236.8C48,229,96,212,144,204.2C192,196,240,196,288,212.3C336,229,384,261,432,261.3C480,261,528,229,576,236.8C624,245,672,294,720,285.8C768,278,816,212,864,163.3C912,114,960,82,1008,89.8C1056,98,1104,147,1152,171.5C1200,196,1248,196,1296,228.7C1344,261,1392,327,1440,318.5C1488,310,1536,229,1584,212.3C1632,196,1680,245,1728,253.2C1776,261,1824,229,1872,179.7C1920,131,1968,65,2016,106.2C2064,147,2112,294,2160,343C2208,392,2256,343,2304,285.8C2352,229,2400,163,2448,179.7C2496,196,2544,294,2592,326.7C2640,359,2688,327,2736,326.7C2784,327,2832,359,2880,375.7C2928,392,2976,392,3024,367.5C3072,343,3120,294,3168,277.7C3216,261,3264,278,3312,269.5C3360,261,3408,229,3432,212.3L3456,196L3456,490L3432,490C3408,490,3360,490,3312,490C3264,490,3216,490,3168,490C3120,490,3072,490,3024,490C2976,490,2928,490,2880,490C2832,490,2784,490,2736,490C2688,490,2640,490,2592,490C2544,490,2496,490,2448,490C2400,490,2352,490,2304,490C2256,490,2208,490,2160,490C2112,490,2064,490,2016,490C1968,490,1920,490,1872,490C1824,490,1776,490,1728,490C1680,490,1632,490,1584,490C1536,490,1488,490,1440,490C1392,490,1344,490,1296,490C1248,490,1200,490,1152,490C1104,490,1056,490,1008,490C960,490,912,490,864,490C816,490,768,490,720,490C672,490,624,490,576,490C528,490,480,490,432,490C384,490,336,490,288,490C240,490,192,490,144,490C96,490,48,490,24,490L0,490Z"></path><defs><linearGradient id="sw-gradient-1" x1="0" x2="0" y1="1" y2="0"><stop stop-color="rgba(71, 86, 223, 1)" offset="0%"></stop><stop stop-color="rgba(255, 255, 255, 1)" offset="100%"></stop></linearGradient></defs><path style="transform:translate(0, 50px); opacity:0.9" fill="url(#sw-gradient-1)" d="M0,392L24,392C48,392,96,392,144,351.2C192,310,240,229,288,196C336,163,384,180,432,228.7C480,278,528,359,576,392C624,425,672,408,720,343C768,278,816,163,864,155.2C912,147,960,245,1008,253.2C1056,261,1104,180,1152,171.5C1200,163,1248,229,1296,245C1344,261,1392,229,1440,220.5C1488,212,1536,229,1584,261.3C1632,294,1680,343,1728,318.5C1776,294,1824,196,1872,196C1920,196,1968,294,2016,326.7C2064,359,2112,327,2160,294C2208,261,2256,229,2304,220.5C2352,212,2400,229,2448,245C2496,261,2544,278,2592,294C2640,310,2688,327,2736,318.5C2784,310,2832,278,2880,253.2C2928,229,2976,212,3024,196C3072,180,3120,163,3168,171.5C3216,180,3264,212,3312,261.3C3360,310,3408,376,3432,408.3L3456,441L3456,490L3432,490C3408,490,3360,490,3312,490C3264,490,3216,490,3168,490C3120,490,3072,490,3024,490C2976,490,2928,490,2880,490C2832,490,2784,490,2736,490C2688,490,2640,490,2592,490C2544,490,2496,490,2448,490C2400,490,2352,490,2304,490C2256,490,2208,490,2160,490C2112,490,2064,490,2016,490C1968,490,1920,490,1872,490C1824,490,1776,490,1728,490C1680,490,1632,490,1584,490C1536,490,1488,490,1440,490C1392,490,1344,490,1296,490C1248,490,1200,490,1152,490C1104,490,1056,490,1008,490C960,490,912,490,864,490C816,490,768,490,720,490C672,490,624,490,576,490C528,490,480,490,432,490C384,490,336,490,288,490C240,490,192,490,144,490C96,490,48,490,24,490L0,490Z"></path><defs><linearGradient id="sw-gradient-2" x1="0" x2="0" y1="1" y2="0"><stop stop-color="rgba(71, 86, 223, 1)" offset="0%"></stop><stop stop-color="rgba(255, 255, 255, 1)" offset="100%"></stop></linearGradient></defs><path style="transform:translate(0, 100px); opacity:0.8" fill="url(#sw-gradient-2)" d="M0,196L24,212.3C48,229,96,261,144,302.2C192,343,240,392,288,416.5C336,441,384,441,432,441C480,441,528,441,576,416.5C624,392,672,343,720,302.2C768,261,816,229,864,245C912,261,960,327,1008,294C1056,261,1104,131,1152,114.3C1200,98,1248,196,1296,212.3C1344,229,1392,163,1440,114.3C1488,65,1536,33,1584,32.7C1632,33,1680,65,1728,138.8C1776,212,1824,327,1872,334.8C1920,343,1968,245,2016,179.7C2064,114,2112,82,2160,81.7C2208,82,2256,114,2304,147C2352,180,2400,212,2448,228.7C2496,245,2544,245,2592,277.7C2640,310,2688,376,2736,359.3C2784,343,2832,245,2880,204.2C2928,163,2976,180,3024,196C3072,212,3120,229,3168,204.2C3216,180,3264,114,3312,89.8C3360,65,3408,82,3432,89.8L3456,98L3456,490L3432,490C3408,490,3360,490,3312,490C3264,490,3216,490,3168,490C3120,490,3072,490,3024,490C2976,490,2928,490,2880,490C2832,490,2784,490,2736,490C2688,490,2640,490,2592,490C2544,490,2496,490,2448,490C2400,490,2352,490,2304,490C2256,490,2208,490,2160,490C2112,490,2064,490,2016,490C1968,490,1920,490,1872,490C1824,490,1776,490,1728,490C1680,490,1632,490,1584,490C1536,490,1488,490,1440,490C1392,490,1344,490,1296,490C1248,490,1200,490,1152,490C1104,490,1056,490,1008,490C960,490,912,490,864,490C816,490,768,490,720,490C672,490,624,490,576,490C528,490,480,490,432,490C384,490,336,490,288,490C240,490,192,490,144,490C96,490,48,490,24,490L0,490Z"></path></svg> -->
     </section>
-
-
-
-
 
     <!-- More about -->
     <section class="more-about" id="about">
-        <div class="row justify-content-center">
-
-            <h2 class="mb-4 about-head display-7"><i class="bi bi-person-lines-fill"></i> About Me</h2>
-            <div class="col-lg-3 col-md-4 col-8 mt-3 mb-3">
-                <div class="img-cont" 
-                data-aos="fade-right"
-                data-aos-delay="50"
-                data-aos-duration="1000">
-
-                    <img src="image.jpeg" class="img-fluid about-img" alt="">
-                    <div class="img-overlay">
-                        <a href="mailto:jibola19@gmail.com" class="icone" title="Send mail">
-                            <i class='bx bx-mail-send' ></i> 
-                                               </a>
-                    </div>
-                </div>
+      <div class="row justify-content-center align-items-start">
+        <h2 class="mb-4 about-head display-7">
+          <i class="bi bi-person-lines-fill"></i> About Me
+        </h2>
+        <div class="col-lg-3 col-md-5 col-8 mt-3 mb-3">
+          <div
+            class="img-cont"
+            data-aos="fade-right"
+            data-aos-delay="50"
+            data-aos-duration="1000"
+          >
+            <img src="jibola.jpg" class="img-fluid about-img" alt="" />
+            <div class="img-overlay">
+              <a
+                href="mailto:jibola19@gmail.com"
+                class="icone"
+                title="Send mail"
+              >
+                <i class="bx bx-mail-send"></i>
+              </a>
             </div>
-            <div class="col-lg-5 col-md-5 col-12">
-                <div
-                 data-aos="fade-left"
-                 data-aos-delay="50"
-                data-aos-duration="1000"
-                
-
-                >
-                    <p>
-                        Hi, I am Ige Ajibola. I fondly like to be called Destiny. I am Front-end Web developer based in Ogun State, Nigeria with extensive knowledge in web technologies, Programming as well as Creating intuitive, dynamic user experiences.
-                    </p>
-                    <p>
-                        I am result-oriented and concerned about being a creative and effective member in an agile team. Well organised person, problem solver, independent employee with high attention to details.</p>
-                    <p>
-                        Interested in the entire frontend spectrum and working ambi tions projects with postive people
-                    </p>
-    
-                    <p><a href="#contact" class="make-btn">Let make something special <i class="bi bi-chevron-double-right"></i></a></p>
-                </div>
-            </div>
+          </div>
         </div>
+        <div class="col-lg-5 mt-2 col-md-5 col-12">
+          <div
+            data-aos="fade-left"
+            data-aos-delay="50"
+            data-aos-duration="1000"
+          >
+            <p>
+              Hi, I am Ige Ajibola. I fondly like to be called Destiny. I am
+              Front-end Web developer based in Ogun State, Nigeria with
+              extensive knowledge in web technologies, Programming as well as
+              Creating intuitive, dynamic user experiences.
+            </p>
+            <p>
+              I am result-oriented and concerned about being a creative and
+              effective member in an agile team. Well organised person, problem
+              solver, independent employee with high attention to details.
+            </p>
+            <p>
+              Interested in the entire frontend spectrum and working ambitions
+              projects with postive people
+            </p>
+
+            <p>
+              <a href="#contact" class="make-btn"
+                >Let make something special
+                <i class="bi bi-chevron-double-right"></i
+              ></a>
+            </p>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- Skills sections ofus-->
     <section class="skills" id="skills">
-        <h2 class="about-head display-7 mb-5">My Top Skills</h2>
+      <h2 class="about-head display-7 mb-5">My Top Skills</h2>
 
-        <div class="skills-wrapper">
-            <div class="first-set animate__animated animate__pulse">
-                <img src="assets/icons/icons8-html-5.svg" alt="" loading="lazy" class="icon icon-card"
-                data-aos="fade-up-left"
-                 data-aos-delay="50"
-                data-aos-duration="1000"
-                 />
-                <img src="assets/icons/icons8-css3.svg" alt="" loading="lazy" class="icon icon-card" 
-                data-aos="fade-up-right"
-                 data-aos-delay="50"
-                data-aos-duration="1000"
-                />
-                <img src="assets/icons/icons8-javascript.svg" alt="" loading="lazy" class="icon icon-card"
-                data-aos="fade-up-left"
-                data-aos-delay="50"
-               data-aos-duration="1000"
-                />
-                <img src="assets/icons/icons8-bootstrap.svg" alt="" loading="lazy" class="icon icon-card"
-                data-aos="fade-up-right"
-                 data-aos-delay="50"
-                data-aos-duration="1000" />
-               
-
-
-
-            </div>
-
-            <div class="second-set animate__animated animate__pulse">
-                <img src="vuejs-icon.svg" alt="" loading="lazy" class="icon icon-card" 
-                data-aos="zoom-out-right"
-                 data-aos-delay="50"
-                data-aos-duration="2000"
-                />
-                <!-- <img src="nodejs-ar21.svg" alt="" loading="lazy" class="icon icon-card" /> -->
-                <!-- <img src="assets/icons/icons8-react-native.svg" alt="" loading="lazy" class="icon icon-card" /> -->
-                <img src="assets/icons/icons8-git.svg" alt="" loading="lazy" class="icon icon-card" 
-                data-aos="zoom-out-left"
-                 data-aos-delay="50"
-                data-aos-duration="2000"
-                />
-                <img src="react-js.svg" alt="" loading="lazy" class="icon icon-card" 
-                data-aos="zoom-out-right"
-                 data-aos-delay="50"
-                data-aos-duration="2000"
-                />
-                  <img src="redux.svg" alt="" loading="lazy" class="icon icon-card" 
-                data-aos="zoom-out-left"
-                 data-aos-delay="50"
-                data-aos-duration="2000"
-                />
-
-            </div>
+      <div class="skills-wrapper">
+        <div class="first-set animate__animated animate__pulse">
+          <img
+            src="assets/icons/icons8-html-5.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+            data-aos="fade-up-left"
+            data-aos-delay="50"
+            data-aos-duration="1000"
+          />
+          <img
+            src="assets/icons/icons8-css3.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+            data-aos="fade-up-right"
+            data-aos-delay="50"
+            data-aos-duration="1000"
+          />
+          <img
+            src="assets/icons/icons8-javascript.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+            data-aos="fade-up-left"
+            data-aos-delay="50"
+            data-aos-duration="1000"
+          />
+          <img
+            src="assets/icons/icons8-bootstrap.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+            data-aos="fade-up-right"
+            data-aos-delay="50"
+            data-aos-duration="1000"
+          />
         </div>
+
+        <div class="second-set animate__animated animate__pulse">
+          <img
+            src="vuejs-icon.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+            data-aos="zoom-out-right"
+            data-aos-delay="50"
+            data-aos-duration="2000"
+          />
+          <!-- <img src="nodejs-ar21.svg" alt="" loading="lazy" class="icon icon-card" /> -->
+          <!-- <img src="assets/icons/icons8-react-native.svg" alt="" loading="lazy" class="icon icon-card" /> -->
+          <img
+            src="assets/icons/icons8-git.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+            data-aos="zoom-out-left"
+            data-aos-delay="50"
+            data-aos-duration="2000"
+          />
+          <img
+            src="react-js.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+            data-aos="zoom-out-right"
+            data-aos-delay="50"
+            data-aos-duration="2000"
+          />
+          <img
+            src="redux.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+            data-aos="zoom-out-left"
+            data-aos-delay="50"
+            data-aos-duration="2000"
+          />
+        </div>
+      </div>
     </section>
 
     <!-- Projects section -->
     <section class="projects" id="projects">
-        <h2 class="projects-title text-center mb-5">Some of my Recent Projects</h2>
-        
+      <h2 class="projects-title text-center mb-5">
+        Some of my Recent Projects
+      </h2>
 
+      <div class="container">
+        <div class="row d-flex justify-content-center">
+          <div class="col-md-4 project-mg">
+            <a href="https://dev.kobooffice.com">
+              <div
+                class="project-cont position-relative shadow-sm p-3"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+              >
+                <img
+                  src="kobo.jpeg"
+                  alt="netflic-clone"
+                  loading="lazy"
+                  class="project-pic"
+                />
 
-
-
-
-        <div class="container">
-            <div class="row d-flex justify-content-center">
-                <div class="col-md-4 project-mg">
-                    <a href="https://dev.kobooffice.com">
-                    <div class="project-cont position-relative shadow-sm p-3"
-                    data-aos="fade-up"
-                    
-                    data-aos-duration="1000"
-                    >
-                        <img src="kobo.jpeg" alt="netflic-clone" loading="lazy" class="project-pic" />
-                        
-                        <h2 class="project-title">Kobo Office</h2>
-                        <div class="text-center">
-                            <button class="btn btn-light btn-sm">Vue js</button>
-                            <button class="btn btn-light btn-sm">bootstrap</button>
-                            <button class="btn btn-light btn-sm">Rest Api</button>
-
-
-                        </div>
-                        <div class="project-p">
-                            <p>
-                                An Accounting Services Product Website with a Tax Calculator created with Vue js and Djanjo Rest api.
-
-                            </p>
-                        </div>
-                        <div class="overlay">
-                            
-                          </div>
-                    </div>
-                    </a>
-    
+                <h2 class="project-title">Kobo Office</h2>
+                <div class="text-center">
+                  <button class="btn btn-light btn-sm">Vue js</button>
+                  <button class="btn btn-light btn-sm">bootstrap</button>
+                  <button class="btn btn-light btn-sm">Rest Api</button>
                 </div>
-
-                   <div class="col-md-4 project-mg">
-                    <a href="https://lighthouse-skbet.netlify.app/">
-                    <div class="project-cont position-relative shadow-sm p-3"
-                    data-aos="fade-up"
-                    
-                    data-aos-duration="1000"
-                    >
-                        <img src="sk-bet.jpeg" alt="netflic-clone" loading="lazy" class="project-pic" />
-                        
-                        <h2 class="project-title">SK Bet</h2>
-                        <div class="text-center">
-                            <button class="btn btn-light btn-sm">Vue js</button>
-                            <button class="btn btn-light btn-sm">bootstrap</button>
-
-
-                        </div>
-                        <div class="project-p">
-                            <p>
-                               A job interterview take home test. The task is to clone an existing Betting website(Sk-bet) user interface using Vue.js
-                            </p>
-                        </div>
-                        <div class="overlay">
-                            
-                          </div>
-                    </div>
-                    </a>
-    
+                <div class="project-p">
+                  <p>
+                    An Accounting Services Product Website with a Tax Calculator
+                    created with Vue js and Djanjo Rest api.
+                  </p>
                 </div>
+                <div class="overlay"></div>
+              </div>
+            </a>
+          </div>
 
-                <div class="col-md-4 project-mg">
-                    <a href="https://audiophilewebsite.netlify.app/">
-                    <div class="project-cont position-relative shadow-sm p-3"
-                    data-aos="fade-up"
-                    
-                    data-aos-duration="1000"
-                    >
-                        <img src="audiophile.jpeg" alt="netflic-clone" loading="lazy" class="project-pic" />
-                        
-                        <h2 class="project-title">Audiophile</h2>
-                        <div class="text-center">
-                            <button class="btn btn-light btn-sm">Vue js</button>
-                            <button class="btn btn-light btn-sm">SCSS</button>
-                            <!-- <button class="btn btn-light btn-sm">Rest Api</button> -->
+          <div class="col-md-4 project-mg">
+            <a href="https://lighthouse-skbet.netlify.app/">
+              <div
+                class="project-cont position-relative shadow-sm p-3"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+              >
+                <img
+                  src="sk-bet.jpeg"
+                  alt="netflic-clone"
+                  loading="lazy"
+                  class="project-pic"
+                />
 
-
-                        </div>
-                        <div class="project-p">
-                            <p>
-                                Multi-page, responsive e-commerce website developed with Vue.js and SCSS. 
-                            </p>
-                        </div>
-                        <div class="overlay">
-                            
-                          </div>
-                    </div>
-                    </a>
-    
+                <h2 class="project-title">SK Bet</h2>
+                <div class="text-center">
+                  <button class="btn btn-light btn-sm">Vue js</button>
+                  <button class="btn btn-light btn-sm">bootstrap</button>
                 </div>
-
-
-
-
-
-
-
-                <div class="col-md-4 project-mg">
-                    <a href="https://sweetmeal.netlify.app/">
-                        <div class="project-cont position-relative shadow-sm p-3" data-aos="fade-up" data-aos-duration="1000">
-                            <img src="meal.jpeg" alt="netflic-clone" loading="lazy" class="project-pic" />
-                
-                            <h2 class="project-title">Sweet Meal</h2>
-                            <div class="text-center">
-                                <button class="btn btn-light btn-sm">React js</button>
-                                <button class="btn btn-light btn-sm">Firebase</button>
-                                <!-- <button class="btn btn-light btn-sm">Rest Api</button> -->
-                
-                
-                            </div>
-                            <div class="project-p">
-                                <p>
-                                    Simple Food Ordering App create with React and Firebase
-                                </p>
-                            </div>
-                            <div class="overlay">
-                
-                            </div>
-                        </div>
-                    </a>
-                
+                <div class="project-p">
+                  <p>
+                    A job interterview take home test. The task is to clone an
+                    existing Betting website(Sk-bet) user interface using Vue.js
+                  </p>
                 </div>
+                <div class="overlay"></div>
+              </div>
+            </a>
+          </div>
 
+          <div class="col-md-4 project-mg">
+            <a href="https://audiophilewebsite.netlify.app/">
+              <div
+                class="project-cont position-relative shadow-sm p-3"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+              >
+                <img
+                  src="audiophile.jpeg"
+                  alt="netflic-clone"
+                  loading="lazy"
+                  class="project-pic"
+                />
 
-
-
-                                <div class="col-md-4 project-mg">
-                    <a href="https://react-admin-material-ui.netlify.app/">
-                        <div class="project-cont position-relative shadow-sm p-3" data-aos="fade-up" data-aos-duration="1000">
-                            <img src="admin.jpeg" alt="netflic-clone" loading="lazy" class="project-pic" />
-                
-                            <h2 class="project-title">Admin Dashboard</h2>
-                            <div class="text-center">
-                                <button class="btn btn-light btn-sm">React js</button>
-                                <button class="btn btn-light btn-sm">Material UI</button>
-                                <!-- <button class="btn btn-light btn-sm">Rest Api</button> -->
-                
-                
-                            </div>
-                            <div class="project-p">
-                                <p>
-                                    A Responsive Admin Dashboard built with React js and Material UI component 
-                                </p>
-                            </div>
-                            <div class="overlay">
-                
-                            </div>
-                        </div>
-                    </a>
-                
+                <h2 class="project-title">Audiophile</h2>
+                <div class="text-center">
+                  <button class="btn btn-light btn-sm">Vue js</button>
+                  <button class="btn btn-light btn-sm">SCSS</button>
+                  <!-- <button class="btn btn-light btn-sm">Rest Api</button> -->
                 </div>
-
-
-                
-                <div class="col-md-4 project-mg">
-                    <a href="https://transcendent-naiad-014571.netlify.app">
-                        <div class="project-cont position-relative shadow-sm p-3" data-aos="fade-up" data-aos-duration="1000">
-                            <img src="rentup.jpeg" alt="netflic-clone" loading="lazy" class="project-pic" />
-                
-                            <h2 class="project-title">Real Estate</h2>
-                            <div class="text-center">
-                                <button class="btn btn-light btn-sm">React js</button>
-                                <button class="btn btn-light btn-sm">CSS</button>
-                                <!-- <button class="btn btn-light btn-sm">Rest Api</button> -->
-                
-                
-                            </div>
-                            <div class="project-p">
-                                <p>
-                                    Responsive Real estate product Webiste
-                                </p>
-                            </div>
-                            <div class="overlay">
-                
-                            </div>
-                        </div>
-                    </a>
-                
+                <div class="project-p">
+                  <p>
+                    Multi-page, responsive e-commerce website developed with
+                    Vue.js and SCSS.
+                  </p>
                 </div>
+                <div class="overlay"></div>
+              </div>
+            </a>
+          </div>
 
+          <div class="col-md-4 project-mg">
+            <a href="https://sweetmeal.netlify.app/">
+              <div
+                class="project-cont position-relative shadow-sm p-3"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+              >
+                <img
+                  src="meal.jpeg"
+                  alt="netflic-clone"
+                  loading="lazy"
+                  class="project-pic"
+                />
 
-                <div class="col-md-4 project-mg">
-                    <a href="https://countreez.vercel.app/">
-                    <div class="project-cont position-relative shadow-sm p-3"
-                    data-aos="fade-up"
-                    
-                    data-aos-duration="1000"
-                    >
-                        <img src="contreez.jpeg" alt="netflic-clone" loading="lazy" class="project-pic" />
-                        
-                        <h2 class="project-title">Countreez</h2>
-                        <div class="text-center">
-                            <button class="btn btn-light btn-sm">Vue js</button>
-                            <button class="btn btn-light btn-sm">SCSS</button>
-                            <!-- <button class="btn btn-light btn-sm">Rest Api</button> -->
-
-
-                        </div>
-                        <div class="project-p">
-                            <p>
-                                A simple responsive website that displays all of the countries and their details. 
-                            </p>
-                        </div>
-                        <div class="overlay">
-                            
-                          </div>
-                    </div>
-                    </a>
-    
+                <h2 class="project-title">Sweet Meal</h2>
+                <div class="text-center">
+                  <button class="btn btn-light btn-sm">React js</button>
+                  <button class="btn btn-light btn-sm">Firebase</button>
+                  <!-- <button class="btn btn-light btn-sm">Rest Api</button> -->
                 </div>
-
-
-                <div class="col-md-4 project-mg">
-                    <a href="https://todo-app.burakgur.vercel.app/">
-                    <div class="project-cont position-relative shadow-sm p-3"
-                    data-aos="fade-up"
-                    
-                    data-aos-duration="1000"
-                    >
-                        <img src="todo.jpeg" alt="netflic-clone" loading="lazy" class="project-pic" />
-                        
-                        <h2 class="project-title">Todo app</h2>
-                        <div class="text-center">
-                            <button class="btn btn-light btn-sm">Vue js</button>
-                            <button class="btn btn-light btn-sm">Composition Api</button>
-
-
-                        </div>
-                        <div class="project-p">
-                            <p>
-                                Basic ToDo App with Vue 3 Composition API 
-                            </p>
-                        </div>
-                        <div class="overlay">
-                            
-                          </div>
-                    </div>
-                    </a>
-    
+                <div class="project-p">
+                  <p>Simple Food Ordering App create with React and Firebase</p>
                 </div>
-    
-                <div class="col-md-4 project-mg">
-                    <a href="http://hotabnode.herokuapp.com/">
-                    <div class="project-cont position-relative shadow-sm p-3"
-                    data-aos="fade-down"
-                    
-                    data-aos-duration="1000"
-                    >
-                        <img src="hotlab.jpeg" alt="netflic-clone" loading="lazy" class="project-pic" />
-                        
-                        <h2 class="project-title">Hotlab Solution</h2>
-                        <div class="text-center">
-                            <button class="btn btn-light btn-sm">Vanilla js</button>
-                            <button class="btn btn-light btn-sm">bootstrap</button>
-                        </div>
-                        <div class="project-p">
-                            <p>
-                                A leading firm, with utmost specialty in providing your business with the best and most effective of prospects and schemes to make it grow even beyond your imagination.
-                            </p>
-                        </div>
-                        <div class="overlay">
-                            
-                          </div>
-                    </div>
-                    </a>
-    
-                </div>
+                <div class="overlay"></div>
+              </div>
+            </a>
+          </div>
 
-            </div>
+          <div class="col-md-4 project-mg">
+            <a href="https://react-admin-material-ui.netlify.app/">
+              <div
+                class="project-cont position-relative shadow-sm p-3"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+              >
+                <img
+                  src="admin.jpeg"
+                  alt="netflic-clone"
+                  loading="lazy"
+                  class="project-pic"
+                />
+
+                <h2 class="project-title">Admin Dashboard</h2>
+                <div class="text-center">
+                  <button class="btn btn-light btn-sm">React js</button>
+                  <button class="btn btn-light btn-sm">Material UI</button>
+                  <!-- <button class="btn btn-light btn-sm">Rest Api</button> -->
+                </div>
+                <div class="project-p">
+                  <p>
+                    A Responsive Admin Dashboard built with React js and
+                    Material UI component
+                  </p>
+                </div>
+                <div class="overlay"></div>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-md-4 project-mg">
+            <a href="https://transcendent-naiad-014571.netlify.app">
+              <div
+                class="project-cont position-relative shadow-sm p-3"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+              >
+                <img
+                  src="rentup.jpeg"
+                  alt="netflic-clone"
+                  loading="lazy"
+                  class="project-pic"
+                />
+
+                <h2 class="project-title">Real Estate</h2>
+                <div class="text-center">
+                  <button class="btn btn-light btn-sm">React js</button>
+                  <button class="btn btn-light btn-sm">CSS</button>
+                  <!-- <button class="btn btn-light btn-sm">Rest Api</button> -->
+                </div>
+                <div class="project-p">
+                  <p>Responsive Real estate product Webiste</p>
+                </div>
+                <div class="overlay"></div>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-md-4 project-mg">
+            <a href="https://countreez.vercel.app/">
+              <div
+                class="project-cont position-relative shadow-sm p-3"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+              >
+                <img
+                  src="contreez.jpeg"
+                  alt="netflic-clone"
+                  loading="lazy"
+                  class="project-pic"
+                />
+
+                <h2 class="project-title">Countreez</h2>
+                <div class="text-center">
+                  <button class="btn btn-light btn-sm">Vue js</button>
+                  <button class="btn btn-light btn-sm">SCSS</button>
+                  <!-- <button class="btn btn-light btn-sm">Rest Api</button> -->
+                </div>
+                <div class="project-p">
+                  <p>
+                    A simple responsive website that displays all of the
+                    countries and their details.
+                  </p>
+                </div>
+                <div class="overlay"></div>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-md-4 project-mg">
+            <a href="https://todo-app.burakgur.vercel.app/">
+              <div
+                class="project-cont position-relative shadow-sm p-3"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+              >
+                <img
+                  src="todo.jpeg"
+                  alt="netflic-clone"
+                  loading="lazy"
+                  class="project-pic"
+                />
+
+                <h2 class="project-title">Todo app</h2>
+                <div class="text-center">
+                  <button class="btn btn-light btn-sm">Vue js</button>
+                  <button class="btn btn-light btn-sm">Composition Api</button>
+                </div>
+                <div class="project-p">
+                  <p>Basic ToDo App with Vue 3 Composition API</p>
+                </div>
+                <div class="overlay"></div>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-md-4 project-mg">
+            <a href="http://hotabnode.herokuapp.com/">
+              <div
+                class="project-cont position-relative shadow-sm p-3"
+                data-aos="fade-down"
+                data-aos-duration="1000"
+              >
+                <img
+                  src="hotlab.jpeg"
+                  alt="netflic-clone"
+                  loading="lazy"
+                  class="project-pic"
+                />
+
+                <h2 class="project-title">Hotlab Solution</h2>
+                <div class="text-center">
+                  <button class="btn btn-light btn-sm">Vanilla js</button>
+                  <button class="btn btn-light btn-sm">bootstrap</button>
+                </div>
+                <div class="project-p">
+                  <p>
+                    A leading firm, with utmost specialty in providing your
+                    business with the best and most effective of prospects and
+                    schemes to make it grow even beyond your imagination.
+                  </p>
+                </div>
+                <div class="overlay"></div>
+              </div>
+            </a>
+          </div>
         </div>
-        
+      </div>
     </section>
 
     <!-- Contact section -->
     <section class="contact" id="contact">
-        <h2 class="mb-5">Get In Touch With Me</h2>
-        <div class="contact-form-container">
-            <div class="contact-form"
-            data-aos="zoom-in-up"
-           
-            data-aos-duration="1000" 
-            >
-                <form action="https://formsubmit.co/jibola619@gmail.com" method="POST">
-                    <!-- <div class="input-group mb-3">
+      <h2 class="mb-5">Get In Touch With Me</h2>
+      <div class="contact-form-container">
+        <div
+          class="contact-form"
+          data-aos="zoom-in-up"
+          data-aos-duration="1000"
+        >
+          <form
+            action="https://formsubmit.co/jibola619@gmail.com"
+            method="POST"
+          >
+            <!-- <div class="input-group mb-3">
                         
                         <span class="input-group-text bg-primary text-white" id="basic-addon1"><i class="bi bi-person-circle"></i></span>
                         <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
                       </div> -->
-                      <div class="input-group mb-3">
-                        
-                        <span class="input-group-text bg-primary text-white" id="basic-addon1"><i class="bi bi-person-badge-fill"></i></span>
-                        <input type="text" name="name" class="form-control" placeholder="Your name" aria-label="Name" aria-describedby="basic-addon1" required>
-                      </div>
-                      <div class="input-group mb-3">
-                        
-                        <span class="input-group-text bg-primary text-white" id="basic-addon1"><i class="bi bi-envelope-check"></i></span>
-                        <input type="email" name="email" class="form-control" placeholder="Email Address" aria-label="Email" aria-describedby="basic-addon1" required>
-                      </div>
-
-                      <input type="hidden" name="_subject" value="Message From Portfolio!">
-
-                      <input type="hidden" name="_next" value="https://jiboladestiny.github.io/jibola-destiny/thanks.html"> 
-                    
-                      <input type="hidden" name="_captcha" value="false">
-
-                      <div class="input-group mb-3">
-                        <span class="input-group-text bg-primary text-white"><i class="bi bi-pencil-square"></i></span>
-                        <textarea name="message" placeholder="Let Create Some Magic" class="form-control" aria-label="With textarea" rows="5" cols="50" required></textarea>
-                      </div>
-                      <div class="d-grid gap-2 col-6 mx-auto">
-                        <button class="btn btn-primary disable submit-button" type="submit">submit</button>
-
-                      </div>
-                    
-               </form>
-
+            <div class="input-group mb-3">
+              <span
+                class="input-group-text bg-primary text-white"
+                id="basic-addon1"
+                ><i class="bi bi-person-badge-fill"></i
+              ></span>
+              <input
+                type="text"
+                name="name"
+                class="form-control"
+                placeholder="Your name"
+                aria-label="Name"
+                aria-describedby="basic-addon1"
+                required
+              />
+            </div>
+            <div class="input-group mb-3">
+              <span
+                class="input-group-text bg-primary text-white"
+                id="basic-addon1"
+                ><i class="bi bi-envelope-check"></i
+              ></span>
+              <input
+                type="email"
+                name="email"
+                class="form-control"
+                placeholder="Email Address"
+                aria-label="Email"
+                aria-describedby="basic-addon1"
+                required
+              />
             </div>
 
+            <input
+              type="hidden"
+              name="_subject"
+              value="Message From Portfolio!"
+            />
+
+            <input
+              type="hidden"
+              name="_next"
+              value="https://jiboladestiny.github.io/jibola-destiny/thanks.html"
+            />
+
+            <input type="hidden" name="_captcha" value="false" />
+
+            <div class="input-group mb-3">
+              <span class="input-group-text bg-primary text-white"
+                ><i class="bi bi-pencil-square"></i
+              ></span>
+              <textarea
+                name="message"
+                placeholder="Let Create Some Magic"
+                class="form-control"
+                aria-label="With textarea"
+                rows="5"
+                cols="50"
+                required
+              ></textarea>
+            </div>
+            <div class="d-grid gap-2 col-6 mx-auto">
+              <button
+                class="btn btn-primary disable submit-button"
+                type="submit"
+              >
+                submit
+              </button>
+            </div>
+          </form>
         </div>
+      </div>
 
+      <h2 class="send-text">Send a direct Message</h2>
 
-        <h2 class="send-text">Send a direct Message</h2>
-
-        <div class="d-grid gap-2 d-flex justify-content-center">
-            <a class="btn-warning btn" target="blank" href="mailto:jibola19@gmail.com"><i class="bi bi-envelope-plus-fill"></i> Gmail</a>
-            <a class="btn btn-success" target="blank" href="https://wa.me/+23481062030404"><i class="bi bi-whatsapp"></i> WhatsApp</a>
-        </div>
-
+      <div class="d-grid gap-2 d-flex justify-content-center">
+        <a
+          class="btn-warning btn"
+          target="blank"
+          href="mailto:jibola19@gmail.com"
+          ><i class="bi bi-envelope-plus-fill"></i> Gmail</a
+        >
+        <a
+          class="btn btn-success"
+          target="blank"
+          href="https://wa.me/+23481062030404"
+          ><i class="bi bi-whatsapp"></i> WhatsApp</a
+        >
+      </div>
     </section>
 
     <!-- Social accounts - Fixed to the right -->
     <div class="socials">
-        <a href="https://www.twitter.com/Dhestiny144" target="_blank"><img src="assets/icons/icons8-twitter-circled.gif" alt="Twitter" loading="lazy" class="socicon" /></a>
-        <a href="https://www.linkedin.com/in/ige-rasaq-ajibola-572713213/" target="_blank"><img src="assets/icons/icons8-instagram.gif" alt="Instagram" loading="lazy" class="socicon" /></a>
-        <a href="https://www.linkedin.com/in/ige-rasaq-ajibola-572713213/" target="_blank"><img src="assets/icons/icons8-linkedin-circled.gif" alt="Linkedin" loading="lazy" class="socicon" /></a>
-        <a href="https://github.com/jiboladestiny" target="_blank"><img src="assets/icons/icons8-github.gif" alt="Github" class="socicon" /></a>
+      <a href="https://www.twitter.com/Dhestiny144" target="_blank"
+        ><img
+          src="assets/icons/icons8-twitter-circled.gif"
+          alt="Twitter"
+          loading="lazy"
+          class="socicon"
+      /></a>
+      <a
+        href="https://www.linkedin.com/in/ige-rasaq-ajibola-572713213/"
+        target="_blank"
+        ><img
+          src="assets/icons/icons8-instagram.gif"
+          alt="Instagram"
+          loading="lazy"
+          class="socicon"
+      /></a>
+      <a
+        href="https://www.linkedin.com/in/ige-rasaq-ajibola-572713213/"
+        target="_blank"
+        ><img
+          src="assets/icons/icons8-linkedin-circled.gif"
+          alt="Linkedin"
+          loading="lazy"
+          class="socicon"
+      /></a>
+      <a href="https://github.com/jiboladestiny" target="_blank"
+        ><img src="assets/icons/icons8-github.gif" alt="Github" class="socicon"
+      /></a>
     </div>
 
     <!-- Scroll to top -->
-    <i class="scroll-up" id="scroll-up"><img
+    <i class="scroll-up" id="scroll-up"
+      ><img
         src="assets/icons/icons8-upward-arrow.gif"
         class="socicon up-arrow"
         alt=""
@@ -536,30 +680,31 @@
 
     <!-- Footer section -->
     <footer>
-        <p class="copy">&copy; Copyright 2021</p>
-        <p class="copy">
-            Built with &#x2661; by
-            <a href="" class="text-decoration-none" target="_blank">Ige Ajibola (Destiny)</a
+      <p class="copy">&copy; Copyright 2021</p>
+      <p class="copy">
+        Built with &#x2661; by
+        <a href="" class="text-decoration-none" target="_blank"
+          >Ige Ajibola (Destiny)</a
         >
       </p>
     </footer>
 
     <!-- Website scripts -->
     <script>
-        const navbar = document.querySelector('.nav-bar');
-        window.onscroll = () => {
-            if (window.scrollY > 100) {
-                navbar.classList.add('nav-active');
-            } else {
-                navbar.classList.remove('nav-active');
-            }
-        };
+      const navbar = document.querySelector(".nav-bar");
+      window.onscroll = () => {
+        if (window.scrollY > 100) {
+          navbar.classList.add("nav-active");
+        } else {
+          navbar.classList.remove("nav-active");
+        }
+      };
     </script>
     <script src="assets/js/app.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
-        AOS.init();
-      </script>
+      AOS.init();
+    </script>
     <!-- Ion icons scripts -->
     <script
       type="module"
