@@ -296,6 +296,8 @@ margin: auto; */
 .button-cont a {
   background-color: whitesmoke;
   color: black;
+ outline: 0 !important;
+  box-shadow: none !important;
 }
 .button-cont a:hover {
   background-color: rgb(128, 128, 128,0.7);
