@@ -311,6 +311,7 @@ margin: auto; */
 }
 
 .button-cont a div i{
+    margin-top: 3px;
     font-size: 20px;
     margin-right: 0.05rem;
 }
